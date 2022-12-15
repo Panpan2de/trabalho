@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.corpo{
+    background-color: rgb(0, 66, 37);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamanho{
+    width: 100vh;
+}
+
+.container{
+    background-color: rgb(160, 224, 0);
+    border-radius: 20px;
+    height: 500px;
+    width: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.imge a{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 80%;
+    width: 80%;
+}
+
+div.lar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 60%;
+}
+
+form{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 90%;
+}
+
+.form-group{
+    padding-bottom: 10px;
+}
+
+.butao{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.butao button {
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.butao button:hover{
+    background-color: darkgreen;
+}
+
+.criar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esq{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+
+.Possui{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+@media (max-width: 730px){
+    div.imge{
+    display: none;
+}   
+    div.lar{
+    width: 100%;
+    }
+    form{
+    width: 80%;
+    }
+}
